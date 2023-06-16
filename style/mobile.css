@@ -1,0 +1,900 @@
+@media screen and (max-width:768px) 
+{
+    *
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* Tablate mate */
+.navigation
+{
+    width: 100%;
+    height: 70px;
+    /* position: absolute; */
+    background-color: rgb(254, 254, 254);
+    display: block;
+    top: 0px;
+    /* position: fixed; */
+    z-index: 1;
+
+}
+.navigation_logo
+{
+    width: 20%;
+    display: flex;
+    display: block;
+    height: inherit;
+    /* background-color: white; */
+}
+.navigation_logo img
+{
+    width: 100%;
+    display: block;
+    height: inherit;
+}
+
+.bars .fa-bars
+{
+    /* float: right; */
+    left: 60%;
+    top: 3%;
+    font-size: 40px;
+    position: absolute;
+    display: block;
+    
+}
+.barss
+{
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    left: 670px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* laptop screen */
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 19, 19);
+}
+.logo
+{
+    width: 25%;
+    display: none;
+    height: inherit;
+    background-color: thistle;
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.main_list
+{
+    width: 75%;
+    display: none;
+    height: inherit;
+    /* background-color: teal; */
+    border-bottom: 1px solid silver;
+}
+.fa-location-dot
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fa-phone-volume
+{
+    font-size: 15px;
+    padding-top: 13px;
+}
+.locat
+{
+    width: 20%;
+    height: 80px;
+    line-height: 40px;
+   
+    /* background-color: tomato; */
+
+}
+
+.locat a
+{
+    text-decoration: none;
+    color: rgb(112, 107, 107);
+}
+.locat a:hover
+{
+    color:  rgb(112, 107, 107);
+}
+
+/* sublist */
+nav ul
+{
+    width: 60%;
+    height: 30px;
+    margin-left: 25%;
+    /* margin-right: 10%; */
+    /* background-color: lightcyan; */
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+nav ul li
+{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    line-height: 35px;
+
+    
+
+}
+
+nav ul li a
+{
+    color: #222;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* ----- Sublist - START ----- */
+nav ul li ul
+{
+    width: 200px;
+    height: auto;
+    margin: 0;
+    /* display: block; */
+    background-color: whitesmoke;
+    
+    display: none;
+}
+nav ul li ul li
+{
+    width: 100%;
+    height: 35px;
+margin-left: -20px;
+    padding-left: 15px;
+    line-height: 35px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+nav ul li ul a:hover 
+{
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+
+
+
+
+.trust
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 18%;
+    font-size: 40px;
+    z-index: 1;
+}
+.ray
+{
+    width: 100%;
+    font-size: 15px;
+    /* background-color: yellowgreen; */
+}
+.carousel
+{
+    margin-top: 7%;
+}
+.about
+{
+    z-index:-1;
+    /* display: block; */
+}
+.about span
+{
+    color:silver;
+    position: absolute;
+    left: 25px;
+    top: -30px;
+   
+}
+
+.about span:nth-child(3)
+{
+   color: red;
+    position: absolute;
+    /* top: -112px; */
+    margin-top: -5px;
+    left: 25px;
+}
+
+.about .raymond
+{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    top: 10px;
+    position: absolute;
+}
+.about .with
+{
+    width: 80%;
+    position: absolute;
+    top: 40px;
+}
+.imge
+{
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    height: 400px;
+    right: 70px;
+
+}
+.divesier
+{
+    top: 640px;
+    position: relative;
+}
+.main_col
+{
+    position: absolute;
+    top: 0px;
+}
+.imge img
+{
+    width: 100%;
+    height: inherit;
+}
+.ourbussi .images
+{
+   display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    /* top: -250px;
+     */
+     margin-top: 80%;
+     /* margin-top: -80%; */
+}
+.imagesa:hover
+{
+    background-color: rgb(190, 79, 79);
+    cursor: pointer;
+}
+.mawn
+{
+    width: 96.5%;
+    height: 400px;
+    /* background-color: blue; */
+    position: absolute;
+    margin-top: 5%;
+    /* top: 470px; */
+}
+.mawn img
+{
+    width: 100%;
+    height: inherit;
+}
+.the
+{
+    width: 100%;
+
+}
+.containerimg
+{
+    width: 100%;
+    height: 520px;
+    margin-top: 2%;
+    filter: brightness(70%);
+}
+.design
+{
+    height: 550px;
+    /* position: relative; */
+    width: 100%;
+    top: 300px;
+    /* margin-top: 100%; */
+}
+.design .vaerti
+{
+    width: 100%;
+    font-size: 20px;   
+}
+
+#des
+{
+    /* margin-top: 100px; */
+    position: relative;
+    top: 1890px;
+}
+.vaerti
+{
+    width: 60%;
+    position: absolute;
+    float: left;
+    margin-top: 40px;
+}
+.subul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 20px;
+    width:50%;
+    display: none;
+    /* padding: 30px 20px; */
+    gap: 30px;
+    /* background-color: yellowgreen; */
+    
+    
+}
+.subul li
+{   
+    color: white;
+    cursor: pointer;
+ 
+}
+.left
+{
+    width: 60%;
+    height: 250px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    /* top: 200px; */
+    margin-top: 20px;
+    left: 10px;
+}
+.left img
+{
+    width: 50%;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 6px;
+}
+.left span
+{
+    color: white;
+}
+#newssre
+{
+    /* background-color: yellowgreen; */
+    position: relative;
+    top: 1900px;
+}
+.news
+{
+    /* background-color: yellow; */
+    height: 250px;
+    position: absolute;
+    left: 0px;
+
+}
+.news span
+{
+color: silver;
+}
+.news b
+{
+    margin-top: 1%;
+    float: left;
+    font-size: 25px;
+}
+.news p
+{
+    position: absolute;
+    top:70px
+}
+.news span:nth-child(6)
+{
+    color:red;
+    position: absolute;
+    top: 150px;
+    text-decoration: underline red;
+    left: 10px;
+}
+#rightsw
+{
+    width: 40%;
+    height: inherit;
+    position: absolute;
+    top: 220px;
+    right:280px;
+    display: block;
+
+    /* background-color: violet; */
+
+}
+#investor
+{
+    /* background-color: yellowgreen; */
+    position: relative;
+    top: 2450px;
+}
+.bussin
+{
+    /* background-color: yellowgreen;  */
+    position: relative;
+    top: 2090px;
+}
+.rightsw img
+{   width: 80%;
+margin-right: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.right img:hover
+{
+    background-color: red;
+    cursor: pointer;
+   
+}
+
+#left
+{
+    width: 40%;
+    height: 350px;
+    /* background-color: teal; */
+}
+#left img
+{
+    width: 80%;
+    height: inherit;
+}
+#rightss
+{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    position: absolute;
+
+}
+#rightss p
+{
+    /* background-color: violet; */
+    width: 90%;
+
+}
+#rightss span
+{
+    color: silver;
+    margin-top: 15%;
+    /* float: left; */
+    left: 0px;
+    position: absolute;
+}
+#rightss b
+{
+    font-size: 25px;
+    /* float: left; */
+    position: absolute;
+    margin-top: 100px;
+    left:0px;
+}
+#rightss p
+{
+    position: absolute;
+    top: 145px;
+    font-size: 17px;
+}
+.rights span:nth-child(4)
+{
+    color: rgb(0, 255, 89);
+    position: absolute;
+    top: 190px;
+    right: 245px;
+    text-decoration: underline red;
+}
+#rightss span
+{
+    color: red;
+    /* top: 100px; */
+}
+#beyons
+{
+    position: relative;
+    /* background-color: yellowgreen; */
+    top: 3100px;
+}
+#left
+{
+    width: 100%;
+    position: absolute;
+    top: 300px;
+}
+.beyond span
+{
+    color: silver;
+    margin-top: 15%;
+    float: left;
+}
+.beyond b
+{
+    font-size: 25px;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+.beyond p
+{
+    position: absolute;
+    text-align: justify;
+    top: 80px;
+    width: 100%;
+    font-size: 14px;
+
+}
+.beyond span:nth-child(4)
+{color: red;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    text-decoration: underline red;
+    font-size: 14px;
+    cursor: pointer;
+}
+.beyond span:nth-child(5)
+{color: red;
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    text-decoration: underline red;
+    font-size: 14px;
+    cursor: pointer;
+}
+#beyondrightd
+{
+    width: 35%;
+    right: 300px;
+    top: 290px;
+    /* margin-left: -10px; */
+    /* background-color: violet; */
+    position: absolute;
+
+}
+
+#beyondrightd img
+{
+    margin-left: 5%;
+    width: 80%;
+}
+.beyondrights
+{
+    width:30%;
+    height: inherit;
+    position: absolute;
+    /* background-color: teal; */
+    top: 30px;
+    display: flex;
+    right:230px;
+}
+
+.beyondrights img
+{
+    width: 70%;
+    height: 230px;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+#footerma
+{
+    background-image: url(image/opecity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+    height: 1250px;
+    position: relative;
+    top: 2100px;
+    /* display: flex; */
+
+}
+
+
+ #mains
+{
+    width: 100%;
+    height: 280px;  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+    /* background-color: rgb(206, 150, 37); */
+} 
+
+
+
+#mains b
+{
+    /* color: rgb(89, 36, 36)4, 9, 9; */
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+    
+}
+#mains ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    font-size: 25px;
+    
+}
+#mains ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+#mains ul li a:hover
+{
+    color: white;
+}
+#mains ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#mains ul li:hover
+{
+    color: white;
+}
+
+
+
+
+
+#twos
+{
+    width: 50%;
+    height: 280px;  
+    position: absolute;
+    top: 320px;
+    left: 60px;
+}
+#twos b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 25px;
+}
+#twos ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-size: 25px;
+    
+}
+#twos ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+#twos ul li a:hover
+{
+    color: white;
+}
+#twos ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#twos ul li:hover
+{
+    color: white;
+}
+
+
+
+#threes
+{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    top: 520px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(0, 55, 255); */
+}
+#threes b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    font-size: 25px;
+}
+#threes ul
+{  list-style-type: none;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 25px;
+    
+}
+#threes ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+#threes ul li a:hover{
+    color: white;
+}
+#threes ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#threes ul li:hover
+{
+    color: white;
+    
+}
+.ourbussi
+{   
+    /* background-color: teal; */
+    position: relative;
+    top: 1480px;
+    right: 5px;
+}
+.ourbussi .excell
+
+{
+    position: absolute;
+    left: 130px;
+    top: -50px;
+    /* background-color: yellowgreen; */
+    width: 100%;
+    font-size: 25px;
+
+}
+.ourbussi .at
+{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    font-size: 19px;
+    right: 0px;
+}
+
+
+#fours
+{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    top: 920px;
+}
+#fours b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    font-size: 25px;
+}
+#fours .fa-location-dot
+{
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: white;
+}
+.fa-phone
+{ font-size: 20px;
+    position: absolute;
+    left: 13px;
+    top: 150px;
+    color: white;
+}
+#fours p
+{
+    position: absolute;
+    top: 60px;
+    font-size: 16px;
+    left:50px;
+    color: white;
+}
+#fours p:nth-child(6)
+{
+    color: white;
+    top: 130px;
+}
+#fours .fa-instagram{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    font-size: 27px;
+    color: white;
+}
+#fours .fa-linkedin
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 90px;
+    font-size: 27px;
+    color: white;
+}
+#fours .fa-facebook{
+    position: absolute;
+    top: 240px;
+    left: 130px;
+    font-size: 27px;
+    cursor: pointer;
+    color: white;
+}
+#fours .fa-youtube
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 170px;
+    font-size: 27px;
+    color: white;
+}
+#fours .fa-twitter{
+    position: absolute;
+    top: 240px;
+    left: 210px;
+    cursor: pointer;
+    font-size: 27px;
+    color: white;
+
+}
+
+#fours strong
+{
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    font-size: 25px;
+    /* font-size: 20px; */
+    color: white;
+}
+
+
+/* Mobile Navigation */
+      
+}

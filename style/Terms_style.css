@@ -1,0 +1,508 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+  
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: white;
+}
+.logo
+{
+    width: 25%;
+    height: inherit;
+    background-color: thistle;
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.main_list
+{
+    width: 75%;
+    height: inherit;
+    /* background-color: teal; */
+    border-bottom: 1px solid silver;
+}
+.fa-location-dot
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fa-phone-volume
+{
+    font-size: 15px;
+    padding-top: 13px;
+}
+.locat
+{
+    width: 20%;
+    height: 80px;
+    line-height: 40px;
+   
+    /* background-color: tomato; */
+
+}
+
+.locat a
+{
+    text-decoration: none;
+    color: rgb(112, 107, 107);
+}
+.locat a:hover
+{
+    color:  rgb(112, 107, 107);
+}
+
+/* sublist */
+nav ul
+{
+    width: 60%;
+    height: 30px;
+    margin-left: 25%;
+    /* margin-right: 10%; */
+    /* background-color: lightcyan; */
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+nav ul li
+{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    line-height: 35px;
+
+    
+
+}
+
+nav ul li a
+{
+    color: #222;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* ----- Sublist - START ----- */
+nav ul li ul
+{
+    width: 200px;
+    height: auto;
+    margin: 0;
+    /* display: block; */
+    background-color: whitesmoke;
+    
+    display: none;
+}
+nav ul li ul li
+{
+    width: 100%;
+    height: 35px;
+margin-left: -20px;
+    padding-left: 15px;
+    line-height: 35px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+nav ul li ul a:hover 
+{
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+/* Terms */
+
+.mains
+{
+    width: 100%;
+    height: 360px;
+    /* margin-top: 175px; */
+    /* background-color: rgb(86, 6, 13);    */
+}
+.top
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: thistle; */
+}
+.top h2
+{   
+    font-size: 40px;
+    margin-left: 7%;
+    margin-top: 100px;
+    float: left;
+}
+
+.bottom
+{
+    width: 100%;
+    height: 360px;
+    /* background-color: teal; */
+    margin-top: -70px;
+}
+.bottom img
+{
+    width: 90%;
+    height: inherit;
+    margin-left: 6%;
+    border-radius: 10px;
+    /* margin-right: 10%; */
+}
+
+/* Detaials  main*/
+.details_mains
+{
+    width: 100%;
+    height: 900px;
+    /* background-color: yellowgreen; */
+    margin-top: 200px;
+}
+.details_mains b
+{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.details_mains p
+{
+    width: 80%;
+    margin-left: 74px;
+    margin-top: 10px;
+}
+
+
+/* footer */
+footer
+{
+    width: 100%;
+    height: 400px;
+    /* margin-top: ; */
+    /* background-color: yellowgreen; */
+    background-image: url(image/opecity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(25%); */
+}
+.main
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellowgreen; */
+    /* margin-left: %; */
+}
+
+.one
+{
+    width: 23%;
+    left: 10px;
+    top: 20px;
+    height: 350px;
+    position: absolute;
+    /* background-color: red; */
+}
+.one b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.one ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.one ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+
+}
+.one ul li a:hover
+{
+    color: white;
+}
+.one ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.one ul li:hover
+{
+    color: white;
+}
+
+
+
+
+
+.two
+{
+    width: 23%;
+    height: 350px;
+    position: absolute;
+    left: 310px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(157, 255, 0); */
+}
+.two b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.two ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.two ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+.two ul li a:hover
+{
+    color: white;
+}
+.two ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.two ul li:hover
+{
+    color: white;
+}
+
+
+
+
+
+
+
+.three
+{
+    width: 23%;
+    height: 350px;
+    position: absolute;
+    left: 610px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(0, 55, 255); */
+}
+.three b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.three ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.three ul li a
+{
+    color:silver;
+    text-decoration: none;
+    list-style: none;
+
+}
+.three ul li a:hover
+{
+    color: white;
+}
+.three ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.three ul li:hover
+{
+    color: white;
+    
+}
+
+
+.four
+{
+    width: 27%;
+    height: 350px;
+    position: absolute;
+    left: 910px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(255, 0, 170); */
+}
+.four b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.four .fa-location-dot
+{
+    font-size: 30px;
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    color: white;
+}
+.fa-phone
+{ font-size: 30px;
+    position: absolute;
+    left: 13px;
+    top: 120px;
+    color: white;
+}
+.four p
+{
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+    left:50px;
+    color: white;
+}
+.four p:nth-child(6)
+{
+    color: white;
+    top: 120px;
+}
+.fa-instagram{
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    font-size: 27px;
+    color: white;
+}
+.fa-linkedin
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 60px;
+    font-size: 27px;
+    color: white;
+}
+.fa-facebook{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    font-size: 27px;
+    cursor: pointer;
+    color: white;
+}
+.fa-youtube
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 140px;
+    font-size: 27px;
+    color: white;
+}
+.fa-twitter{
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    cursor: pointer;
+    font-size: 27px;
+    color: white;
+
+}
+
+strong
+{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* Mobile Navigation */
+.navigation
+{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: none;
+}
+.navigation_logo
+{
+    width: 50%;
+    display: none;
+    height: inherit;
+    /* background-color: white; */
+}
+.navigation_logo img
+{
+    width: 100%;
+    height: inherit;
+
+    display: none;
+}
+.bars
+{
+    width: 96%;
+    height: inherit;
+    background-color: tomato;
+    display: none;
+    /* background-color: violet; */
+}
+.bars .fa-bars
+{
+    /* float: right; */
+    left: 60%;
+    top: 3%;
+    font-size: 40px;
+    position: absolute;
+    
+}
+.barss
+{
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    left: 400px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}

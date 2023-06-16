@@ -1,0 +1,697 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: white;
+}
+.logo
+{
+    width: 25%;
+    height: inherit;
+    background-color: thistle;
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.main_list
+{
+    width: 75%;
+    height: inherit;
+    /* background-color: teal; */
+    border-bottom: 1px solid silver;
+}
+.fa-location-dot
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fa-phone-volume
+{
+    font-size: 15px;
+    padding-top: 13px;
+}
+.locat
+{
+    width: 20%;
+    height: 80px;
+    line-height: 40px;
+   
+    /* background-color: tomato; */
+
+}
+
+.locat a
+{
+    text-decoration: none;
+    color: rgb(112, 107, 107);
+}
+.locat a:hover
+{
+    color:  rgb(112, 107, 107);
+}
+
+/* sublist */
+nav ul
+{
+    width: 60%;
+    height: 30px;
+    margin-left: 25%;
+    /* margin-right: 10%; */
+    /* background-color: lightcyan; */
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+nav ul li
+{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    line-height: 35px;
+
+    
+
+}
+
+nav ul li a
+{
+    color: #222;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* ----- Sublist - START ----- */
+nav ul li ul
+{
+    width: 200px;
+    height: auto;
+    margin: 0;
+    /* display: block; */
+    background-color: whitesmoke;
+    
+    display: none;
+}
+nav ul li ul li
+{
+    width: 100%;
+    height: 35px;
+margin-left: -20px;
+    padding-left: 15px;
+    line-height: 35px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+nav ul li ul a:hover 
+{
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+.trust
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10%;
+    z-index: 1;
+}
+.about
+{
+    z-index:-1;
+}
+.about span
+{
+    color: silver;
+}
+
+.raymond
+{
+    font-size: 2rem;
+    color: black;
+}
+.imge img
+{
+    width: 75%;
+    height: 95%;
+}
+.imagesa:hover
+{
+    background-color: rgb(190, 79, 79);
+    cursor: pointer;
+}
+
+.containerimg
+{
+    width: 100%;
+    height: 520px;
+    margin-top: 2%;
+    filter: brightness(70%);
+}
+.design
+{
+    height: 550px;
+}
+
+.subul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 20px;
+    width:50%;
+    display: flex;
+    /* padding: 30px 20px; */
+    gap: 30px;
+    /* background-color: yellowgreen; */
+    
+    
+}
+.subul li
+{   
+    color: white;
+    cursor: pointer;
+ 
+}
+.left
+{
+    width: 60%;
+    height: 250px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.left img
+{
+    width: 30%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 6px;
+}
+.left span
+{
+    color: white;
+}
+.news
+{
+    /* background-color: yellow; */
+    height: 250px;
+}
+.news span
+{
+color: silver;
+}
+.news b
+{
+    margin-top: 1%;
+    float: left;
+    font-size: 25px;
+}
+.news p
+{
+    position: absolute;
+    top:80px
+}
+.news span:nth-child(6)
+{
+    color: red;
+    position: absolute;
+    top: 170px;
+    text-decoration: underline red;
+    left: 70px;
+}
+.right
+{
+    width: 50%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    /* background-color: violet; */
+
+}
+.right img
+{
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.right img:hover
+{
+    background-color: red;
+    cursor: pointer;
+   
+}
+
+.lefts
+{
+    width: 50%;
+    height: 350px;
+    /* background-color: teal; */
+}
+.lefts img
+{
+    width: 100%;
+    height: inherit;
+}
+.rights
+{
+    width: 50%;
+    height: inherit;
+    /* background-color: yellowgreen; */
+    margin-left: 5%;
+}
+.rights span
+{
+    color: silver;
+    margin-top: 15%;
+    float: left;
+}
+.rights b
+{
+    font-size: 30px;
+    /* float: left; */
+    position: absolute;
+    margin-top: 9%;
+    right: 290px;
+}
+.rights p
+{
+    position: absolute;
+    top: 160px;
+}
+.rights span:nth-child(4)
+{
+    color: red;
+    position: absolute;
+    top: 100px;
+    right: 440px;
+    text-decoration: underline red;
+}
+
+.beyond
+{
+    width: 35%;
+    height: 340px;
+    /* background-color: violet; */
+}
+
+.beyond span
+{
+    color: silver;
+    margin-top: 5%;
+    float: left;
+}
+.beyond b
+{
+    font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+}
+.beyond p
+{
+    position: absolute;
+    text-align: justify;
+    top: 110px;
+}
+.beyond span:nth-child(4)
+{color: red;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    text-decoration: underline red;
+    font-size: 14px;
+    cursor: pointer;
+}
+.beyond span:nth-child(5)
+{color: red;
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    text-decoration: underline red;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.beyondrights
+{
+    width: 70%;
+    height: inherit;
+    position: absolute;
+    /* background-color: teal; */
+    top: 0px;
+    right:-40px;
+}
+
+.beyondrights img
+{
+    width: 30%;
+    height: 300px;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+footer
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    /* background-color: yellowgreen; */
+    background-image: url(image/opecity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(25%); */
+}
+.main
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellowgreen; */
+    /* margin-left: %; */
+}
+
+.one
+{
+    width: 23%;
+    left: 10px;
+    top: 20px;
+    height: 350px;
+    position: absolute;
+    /* background-color: red; */
+}
+.one b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.one ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.one ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.one ul li a
+{
+    text-decoration: none;
+    color: silver;
+}
+.one ul li a:hover
+{
+    color: white;
+}
+.one ul li:hover
+{
+    color: white;
+}
+
+
+
+
+
+.two
+{
+    width: 23%;
+    height: 350px;
+    position: absolute;
+    left: 310px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(157, 255, 0); */
+}
+.two b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.two ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.two ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+.two ul li a:hover
+{
+    color: white;
+}
+.two ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.two ul li:hover
+{
+    color: white;
+}
+
+
+
+
+
+
+
+.three
+{
+    width: 23%;
+    height: 350px;
+    position: absolute;
+    left: 610px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(0, 55, 255); */
+}
+.three b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.three ul
+{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+.three ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+
+}
+.three ul li a:hover
+{
+    color: white;
+}
+.three ul li
+{
+    color: silver;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.three ul li:hover
+{
+    color: white;
+    
+}
+
+
+.four
+{
+    width: 27%;
+    height: 350px;
+    position: absolute;
+    left: 910px;
+    top: 20px;
+    /* margin-left: 1%; */
+    /* background-color: rgb(255, 0, 170); */
+}
+.four b
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.four .fa-location-dot
+{
+    font-size: 30px;
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    color: white;
+}
+.fa-phone
+{ font-size: 30px;
+    position: absolute;
+    left: 13px;
+    top: 120px;
+    color: white;
+}
+.four p
+{
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+    left:50px;
+    color: white;
+}
+.four p:nth-child(6)
+{
+    color: white;
+    top: 120px;
+}
+.fa-instagram{
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    font-size: 27px;
+    color: white;
+}
+.fa-linkedin
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 60px;
+    font-size: 27px;
+    color: white;
+}
+.fa-facebook{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    font-size: 27px;
+    cursor: pointer;
+    color: white;
+}
+.fa-youtube
+{
+    position: absolute;
+    top: 240px;
+    cursor: pointer;
+    left: 140px;
+    font-size: 27px;
+    color: white;
+}
+.fa-twitter{
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    cursor: pointer;
+    font-size: 27px;
+    color: white;
+
+}
+
+strong
+{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* Mobile Navigation */
+        .navigation
+        {
+            width: 100%;
+            height: 70px;
+            background-color: white;
+            display: none;
+        }
+        .navigation_logo
+        {
+            width: 50%;
+            display: none;
+            height: inherit;
+            /* background-color: white; */
+        }
+        .navigation_logo img
+        {
+            width: 100%;
+            height: inherit;
+
+            display: none;
+        }
+        .bars
+        {
+            width: 96%;
+            height: inherit;
+            background-color: tomato;
+            display: none;
+            /* background-color: violet; */
+        }
+        .bars .fa-bars
+        {
+            /* float: right; */
+            left: 60%;
+            top: 3%;
+            font-size: 40px;
+            position: absolute;
+            
+        }
+        .barss
+        {
+            position: absolute;
+            top: 10px;
+            width: 50px;
+            left: 400px;
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+            display: none;
+        }
+     .the
+     {
+        width: 75%;
+     }
+   
+/* footer moile */
+
+
+
