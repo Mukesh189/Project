@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="header.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+ 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="height: 180px; z-index:-1;">
+       <img src="Image/logo.webp" alt="" style="width: 30%; height: 100px;">
+       <i class="fa-solid fa-bars"></i>
+       <div class="bottom">
+        <div class="right">
+            DISCOVER   <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="left">
+            OWN THAR<i class="fa-solid fa-chevron-down"></i>
+        </div>
+       </div>
+      </nav>
+
+ 
+
+
+
+    <!-- sublist_list -->
+
+    <div class="sublist">
+        <ul class="sublist_ul">
+            <li class="sublist_li"><a href="">Explore Thar</a></li>
+            <li class="sublist_li"><a href="">Key Highlights</a></li>
+            <li class="sublist_li"><a href="">Variants and Pricing</a></li>
+            <li class="sublist_li"><a href="">Features</a></li>
+            <li class="sublist_li"><a href="">Gallary</a></li>
+            <li class="sublist_li"><a href="">Accessories</a></li>
+            <li class="sublist_li"><a href="">Merchandise</a></li>
+            <li class="sublist_li"><a href="">In the News</a></li>
+            <li class="sublist_li"><a href="">Our Tribe</a></li>
+
+        </ul>
+    </div>
+
+
+    <!-- OwnThar sublist -->
+ 
+    <div class="ownthar">
+        <ul class="uwnthar_ul">
+            <li class="ownthar_li"><a href="">Book Now</a></li>
+            <li class="ownthar_li"><a href="">Test Drive</a></li>
+            <li class="ownthar_li"><a href="">Enquire Now</a></li>
+            <li class="ownthar_li"><a href="">Download Brochure</a></li>
+        </ul>
+    </div>
+
+
+    <!-- Bar click on list -->
+  <div class="bars">
+        <div class="icon">
+            <i class="fa-solid fa-xmark"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="vehicles">Vehicles</div>
+        <div class="Buy">Buy</div>
+        <div class="service">Service</div>
+        <div class="experience">Experience</div>
+        <div class="global">Global Market</div>
+
+        <div class="supprot_main">
+            <ul class="supprot_main_ul">
+                <li class="supprot_main_li"><a href="">Support</a></li>
+                <li class="supprot_main_li"><a href="">Locate Us</a></li>
+            </ul>
+        </div>
+
+        <div class="account">
+            <i class="fa-solid fa-user"></i>&nbsp; Account
+        </div>
+    </div> 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        $(document).ready(function () {
+            $(".right").click(function () {
+                $(".sublist").slideToggle("slow")
+                $(".ownthar").hide()
+            })
+            
+            $(".left").click(function () {
+                $(".ownthar").slideToggle("slow")
+                $(".sublist").hide()
+            })
+
+
+            $(".fa-xmark").click(function () {
+                $(".bars").slideToggle()
+                
+            })
+
+            $(".fa-bars").click(function () {
+                $(".bars").slideToggle()
+                
+            })
+        })
+    </script>
+</body>
+</html>

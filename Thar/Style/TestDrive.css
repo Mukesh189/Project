@@ -1,0 +1,769 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+/* header */
+#header
+{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(27, 26, 26);
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header_logo
+{
+    width: 20%;
+    height: inherit;
+    color: white;
+    line-height: 40px;
+  
+    padding-left: 35px;
+}
+.header_logo a
+{
+    color: white;
+}
+.header_logo span
+{
+    font-size: 30px;
+    
+}
+.header_logo sup
+{
+    font-size: 15px;
+}
+
+/* header_left */
+.header_left
+{
+    width: 80%;
+    height: inherit;
+
+}
+.header_left span
+{
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+    line-height: 50px;
+    color: white;
+
+}
+.header_left .fa-bars
+{
+    font-size: 30px;
+    float: right;
+    color: white;
+    margin-right: 40px;
+    line-height: 50px;
+    cursor: pointer;
+}
+/* click function */
+
+.head
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top:0;
+   display: none;
+   z-index: 10;
+    background-color: rgb(27, 26, 26);
+}
+.head span
+{
+    font-size: 28px;
+    margin-left: 50px;
+    line-height: 40px;
+    color: white;
+}
+.head sup
+{
+    font-size: 15px;
+}
+.head_ul
+{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    gap: 20px;
+}   
+.head_li
+{   font-size: 20px;
+    list-style: none;
+   
+}
+.head_li a{
+    color: white;
+}
+.fa-user
+{
+    font-size: 20px;
+  
+    /* margin-left: 30px; */
+    color: white; 
+}
+.fa-chevron-down
+{
+    font-size: 20px;
+    
+    margin-left: 5px;
+    color: white;
+}
+.fa-magnifying-glass
+{
+    font-size: 20px;
+  
+    margin-left: 46px;
+    color: white;
+}
+.fa-chevron-left
+{
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Book A test Drive */
+#Book_A_test
+{
+    width: 100%;
+    position: relative;
+    height: 1200px;
+  
+    
+}
+.Book_A_test_top
+{
+   width: 100%;
+   height: 110px;
+ 
+}
+
+/* .Book_A_test_top strong */
+.Book_A_test_top strong
+{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+
+.Book_A_test_top span
+{   
+    font-size: 25px;
+    left: 20px;
+    top: 55px;
+    color: white;
+    position: absolute;
+}
+
+/* Book_A_test_middle_main */
+
+#Book_A_test_middle_main
+{
+    width: 100%;
+    height: 1010px;
+    position: relative;
+ 
+}
+
+.Book_A_test_middle_main_top
+{
+    width: 100%;
+    height: 70px;
+   
+
+  
+}
+
+.top_ul
+{
+    display: flex;
+    margin-left: 40%;
+    line-height: 70px;
+    gap: 30px;
+ 
+}
+.li_one
+{
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+   
+
+}
+.li_one a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.top_ul
+{
+    display: flex;
+}
+.li_two
+{
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+}
+.li_two a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Book_A_test_middle_main */
+
+.one
+{
+    width: 30%;
+    height: 300px;
+    left: 40px;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+.one span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    border-radius: 50%;
+}
+.fa-circle
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.one img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+
+/* .two */
+.two
+{
+    width: 30%;
+    height: 300px;
+    left: 450px;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #242424
+}
+
+.two span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;  
+    color: white;
+    float: left;
+}
+.fa-circle
+{
+    color: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.two img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+
+
+/* three */
+.three
+{   cursor: pointer;
+    width: 30%;
+    height: 300px;
+    left: 860px;
+    position: absolute;
+    top: 20px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+.three span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+.fa-circle
+{
+    float: right;
+    margin-top: 15px;
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.three img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+
+
+
+
+/* four */
+.four
+{   cursor: pointer;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    left: 35px;
+    position: absolute;
+    top: 340px;
+    background-color:#242424;
+}
+
+.four span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+.fa-circle
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.four img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+/* five */
+.five
+{
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10px;
+    height: 300px;
+    left: 450px;
+    position: absolute;
+    top: 340px;
+    background-color:#242424;
+}
+
+.five span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+.fa-circle
+{
+    float: right;
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.five img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+    
+.six
+{
+    cursor: pointer;
+    width: 30%;
+    height: 300px;
+    left: 860px;
+    border-radius: 10px;
+    position: absolute;
+    top: 340px;
+    background-color:#242424;
+}
+
+
+.six span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+.fa-circle
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.six img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+/* seven */
+
+.seven
+{   cursor: pointer;
+    width: 30%;
+    height: 300px;
+    left: 35px;
+    position: absolute;
+    top: 660px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+
+.seven span
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+.fa-circle
+{
+    float: right;
+    color:white;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.seven img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+/* eight */
+.eight
+{
+    cursor: pointer;
+    width: 30%;
+    height: 300px;
+    left: 450px;
+    position: absolute;
+    top: 660px;
+    border-radius: 10px;
+    background-color:#242424;
+}
+
+.eight span
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+.fa-circle
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+.eight img
+{
+    width: 60%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 200px;
+}
+ 
+
+ /* Details */
+.Details_main
+{
+
+    width: 100%;
+    height: 300px;
+
+    position: relative;
+}
+.Details_main_one
+{
+ 
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  
+}
+.Details_main_one strong
+{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.stat
+{
+    width: 400px;
+    border-radius: 10px;
+    right: 200px;
+    top: 50px;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    padding-left: 20px;
+    background-color: #242424;
+}
+
+.start_left
+{
+    width: 400px;
+    border-radius: 10px;
+    right: 400px;
+    top: 50px;
+    position: absolute;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    padding-left: 20px;
+    background-color: #242424;
+}
+
+
+ /* Details of state display none  */
+
+ #State
+ {
+    width: 400px;
+    height: 200px;
+    left: 25px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 1363px;
+    overflow-y: scroll;
+    display: none;
+ }
+ .state_ul
+ {
+    text-decoration: none;
+ }
+ .state_li
+ {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 5px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 5px;
+ }
+ .state_li:hover
+ {
+    color: red;
+    transition: 0.3s;
+ }
+
+
+ /* Contect */
+.contect
+ {
+    width: 100%;
+    height: 170px;
+  
+ }
+ .contect span
+ {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+    color: white;
+ }
+
+ /* form */
+ .form
+ {
+    width: 95%;
+    height:130px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 10px;
+    background-color:#242424;
+ }
+
+ .name
+ {
+    height: 90px;
+
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+
+ }
+ .name label
+ {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+ }
+ .name input
+ {
+    width: 300px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    outline: none;
+ }
+ ::placeholder
+ {
+    
+    padding-left: 10px;
+ }
+
+ .declair
+ {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-top: 10px;
+  
+ }
+ .declair input
+ {
+    margin-top: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+ }
+ .declair p
+ {
+    position: absolute;
+    top: 19px;
+    left: 40px;
+    cursor: pointer;
+    color: white;
+ }
+
+ /* Next_button */
+ .Next_button
+ {
+    width: 95%;
+  margin-left:2% ;
+ margin-right: 2%;
+    height: 70px;
+    margin-top: 10px;
+    background-color:#242424;
+ }
+ .Next_button button
+ {
+    width: 130px;
+    font-size: 17px;
+    color: white;
+    height: 40px;
+   border: 2px solid white;
+    margin-left: 450px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: transparent;
+ }
+
+/* ======ESUVe========= */
+#Book_A_tests
+
+    {
+        width: 100%;
+        position: relative;
+        height: 550px;
+     
+      
+        
+    }
+
+    #Book_A_test_middle_mains
+    {
+        width: 100%;
+        height: 350px;
+        position: relative;
+      
+     
+    }   

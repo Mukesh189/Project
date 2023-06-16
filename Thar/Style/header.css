@@ -1,0 +1,276 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 180px;
+    z-index: -1;
+    position: fixed;
+    background-color: black;
+}
+
+.bottoms
+{
+    width: 100%;
+    height: 60px;
+    margin-top:10px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    
+}
+.fa-bars
+{
+    color: white;
+    font-size: 40px;
+    /* margin-left: 10px; */
+    float: right;
+    margin-right: 20px;
+}
+.right
+{
+    width: 50%;
+    height: 60px;
+    background-color:#6c6b6d;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 10px;
+    color: white;
+}
+.right .fa-chevron-down
+{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.left
+{
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    font-size: 20PX;
+    line-height: 60PX;
+    padding-left: 10PX;
+    color: white;
+}
+
+.left .fa-chevron-down
+{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sublist */
+.sublist
+{
+    width: 100%;
+    height: 470px;
+    background-color:#3a3a3a;
+    /* display: none; */
+    padding: 10px;
+    position: absolute;
+    top:180px;
+}
+.sublist_ul 
+{
+ /* display: block;    */
+}
+.sublist_li
+{
+    font-size: 17px;
+    padding: 15px;
+    border-top: 1px solid silver;
+    list-style: none;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.sublist_li a
+{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+/* ownthar */
+.ownthar
+{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    position: absolute;
+    top: 180px;
+    /* display: none; */
+}
+.ownthar_li
+{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    margin-left: -15px;
+    border-top: 1px solid silver;
+}
+.ownthar_li a
+{   color: white;
+    text-decoration: none;
+}
+
+
+/* Bar click on list */
+.bars
+{
+    width: 100%;
+    height: 600px;
+    background-color: #6c6b6d;
+    position: absolute;
+    /* z-index: -1; */
+    top: 0px;
+    /* display: none; */
+}
+.icon
+{
+    width: 100%;
+    height: 130px;
+    /* background-color: aqua; */
+}
+.icon .fa-xmark
+{
+    float: right;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.bars input
+{
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+    background-image: url(Image/123.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+
+}
+::placeholder
+{
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+.vehicles
+{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.Buy
+{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.service
+{
+    width: 100%;
+    padding-left: 20px;
+    line-height: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.experience
+{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.global
+{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    color: white;
+    padding-left: 20px;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+
+
+.supprot_main
+{
+    width: 100%;
+    height: 80px;
+    /* background-color: yellow; */
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+}
+
+.supprot_main_ul
+{
+    text-decoration: none;
+}
+.supprot_main_li
+{
+    list-style: none;
+    padding: 0px;
+    margin-left: -10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.supprot_main_li a
+{
+    text-decoration: none;
+    color: white;
+}
+.account
+{
+    width: 100%;
+    height: 50px;
+
+    font-size: 20px;
+    float: left;
+    color: white;
+
+}
+.account .fa-user
+{
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+}
