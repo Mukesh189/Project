@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon_Animation</title>
+    <style>
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-image: url(images/galaxy.jpg);
+            background-size: cover;
+        
+        }
+        .contener
+        {
+            display: flex;
+            width: 60%;
+            border-radius: 50%;
+            height: 550px;
+          
+            margin-left: 15%;
+            margin-top: 3%;
+        }
+        .earth
+        {
+            width: 200px;
+            height: 180px;
+            border-radius: 50%;
+           
+            position: absolute;
+            top: 210px;
+            left: 450px;
+            animation-name: earth;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+
+        }
+        .earth img
+        {
+            width: 76%;
+            height: 150px;
+            margin-top: 8%;
+            margin-left: 9%;
+        }
+        .moon
+        {
+            width:600px;
+            border-radius: 50%;
+            height: 400px;
+            top: 10%;
+            position: relative;
+            left: 50px;
+            /* background-color: aqua; */
+            animation-name: moon;
+            animation-duration: 19s;
+            animation-iteration-count: infinite;
+        }
+        .moon img
+        {
+            width: 20%;
+            height: 130px;
+            margin-top: 9%;
+            margin-left: 9%;
+        }
+        @keyframes earth 
+        {
+        
+            from
+            {
+                transform: rotate(0deg);
+            }
+            to
+            {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes moon
+        {
+        
+            from
+            {
+                transform: rotate(360deg);
+            }
+            to
+            {
+                transform: rotate(0deg);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="earth">
+            <img src="images/earth.png" alt="">
+        </div>
+        <div class="moon">
+            <img src="images/moon1.png" alt="">
+
+        </div>
+    </div>
+</body>
+</html>
