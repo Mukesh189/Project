@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Doctor_layout</title>
+    <style>
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+       
+        #Banner
+        {
+            width: 100%;
+            height: 500px;
+              
+             position: absolute;
+        }
+        #Banner img
+        {
+            width: 100%;
+            height: 500px;
+        }
+      
+        #head
+        {
+            width: 100%;
+            height: 70px;
+            background-color: transparent; 
+            position: relative;
+            display: flex;
+        }
+        #head #logo
+        {
+            width: 20%;
+            color: white;
+            font-size: 30px;
+            line-height: 70px;
+            padding-left: 4%;
+            text-shadow: 5px 1px 5px yellowgreen;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 70px;
+            background-color: transparent;
+        }
+        #head #nav
+        {
+            width: 60%;
+            float: right;
+            margin-left: 18%;
+            height: 70px;
+            background-color:transparent;
+        }
+        #head #nav ul
+        {
+            display: flex;
+            gap: 40px;
+        }
+        #head #nav ul a
+        {
+            list-style: none;
+            text-decoration: none;
+            color: white;
+        
+            line-height: 60px;
+            font-size: 20px;
+        }
+        #head #nav ul a:hover
+        {
+            color: red;
+            text-shadow: 2px 1px 5px green;
+        }
+        #head #nav ul .fa-magnifying-glass
+        {
+            color: white;
+            font-size: 25px;
+            padding-top: 2.5%;
+        }
+        #head #nav ul .fa-magnifying-glass:hover
+        {
+            cursor: pointer;
+            color: green;
+            text-shadow: 2px 1px 4px red;
+        }
+        #main
+        {
+            width: 50%;
+            height: 300px;
+            margin-left: 3%;
+            background-color: transparent;
+            position: relative;
+        
+        }
+        #main h1
+        {
+            color: white;
+            font-size: 35px;
+            padding-top: 4%;
+            padding-left: 2%;
+        }
+        #main p
+        {
+            color: white;
+            text-align: justify;
+            width: 70%;
+            padding-left: 2%;
+        }
+        #main button
+        {
+            width: 18%;
+            height: 40px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            font-size: 15px;
+            margin-left: 2%;
+            background-color: white;
+        }
+        #main button:hover
+        {
+            cursor: pointer;
+            box-shadow: 3px 2px 13px red;
+            color: green;
+        }
+
+        #Our_Department
+        {
+            width: 100%;
+            height: 100px;
+            background-color: transparent;
+            position: absolute;
+            top: 82%;
+          
+        }
+        #Our_Department span
+        {
+            font-size: 30px;
+            margin-left: 38%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #Our_Department p
+        {
+            margin-left: 25%;
+            font-size: 19px;
+        }
+
+        #Main_Contener
+        {
+            width: 100%;
+            height: 300px;
+           
+            margin-top: 17%;
+            display: flex;
+            justify-content: center;
+        }
+        #Main_Contener #one
+        {
+            width: 24%;
+            margin-top: 2%;
+            height: 250px;
+          
+        }
+        #Main_Contener #one .fa-heart-pulse
+        {
+            font-size: 82px;
+            background-color:#62d2a2;
+            color: white;
+            width: 40%;
+            height: 97px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding-left: 6%;
+            padding-top: 2%;
+            border-radius: 48%;
+
+        }
+        #Main_Contener #one span
+        {
+
+            font-size: 20px;
+            margin-left: 25%;
+           
+            color:black;
+        }
+        #Main_Contener #one p
+        {
+            text-align: center;
+        }
+        html
+        {
+            scroll-behavior: smooth;
+        }
+
+        #Main_Contener #two
+        {   margin-top: 2%;
+            width: 24%;
+            height: 250px;
+          
+        }
+
+        #Main_Contener #two .fa-heart-pulse
+        {
+            font-size: 82px;
+            background-color:#62d2a2;
+            color: white;
+            width: 40%;
+            height: 97px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding-left: 6%;
+            padding-top: 2%;
+            border-radius: 48%;
+
+        }
+        #Main_Contener #two span
+        {
+
+            font-size: 20px;
+            margin-left: 25%;
+           
+            color:black;
+        }
+        #Main_Contener #two p
+        {
+            text-align: center;
+        }
+
+        #Main_Contener #three
+        {   margin-top: 2%;
+            width: 24%;
+            height: 250px;
+         
+        }
+
+        #Main_Contener #three .fa-heart-pulse
+        {
+            font-size: 82px;
+            background-color:#62d2a2;
+            color: white;
+            width: 40%;
+            height: 97px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding-left: 6%;
+            padding-top: 2%;
+            border-radius: 48%;
+
+        }
+        #Main_Contener #three span
+        {
+
+            font-size: 20px;
+            margin-left: 25%;
+           
+            color:black;
+        }
+        #Main_Contener #three p
+        {
+            text-align: center;
+        }
+        #Main_Contener #four
+        {   margin-top: 2%;
+            width: 24%;
+            height: 250px;
+          
+        }
+        #Main_Contener #four .fa-heart-pulse
+        {
+            font-size: 82px;
+            background-color:#62d2a2;
+            color: white;
+            width: 40%;
+            height: 97px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding-left: 6%;
+            padding-top: 2%;
+            border-radius: 48%;
+
+        }
+        #Main_Contener #four span
+        {
+
+            font-size: 20px;
+            margin-left: 25%;
+           
+            color:black;
+        }
+        #Main_Contener #four p
+        {
+            text-align: center;
+        }
+        #About_us
+        {
+            width: 100%;
+            height: 450px;
+            margin-top: 4%;
+           
+            display: flex;
+        }
+        #About_us #imag
+        {
+            width: 45%;
+            margin-left: 3%;
+            height: 400px;
+          
+        }
+        #About_us #imag img
+        {
+            width: 100%;
+            height: 400px;
+            border-radius: 12px;
+        }
+        #About_us #Right_about
+        {
+            width: 40%;
+            height: 300px;
+          
+            margin-left: 2%;
+            margin-top: 5%;
+        }
+        #About_us #Right_about h2
+        {
+            width: 50%;
+            height: 60px;
+         
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 3%;
+        }
+        #About_us #Right_about p
+        {
+            text-align: justify;
+            width: 95%;
+            
+        }
+        #About_us #Right_about button
+        {
+            width: 25%;
+            height: 40px;
+            margin-top: 3%;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            background-color: #62d2a2;
+            color: white;
+            font-size: 15px; 
+        }
+        #About_us #Right_about button:hover
+        {
+            box-shadow: 9px 1px 9px yellow;
+            cursor: pointer;
+        }
+        #Section
+        {
+            width: 100%;
+            
+            height: 800px;
+            background-color:#178066;
+        }
+        #Section button
+        {
+            position: relative;
+            top: 6%;
+            left: 40%;
+            height: 40px;
+            width: 130px;
+            color: white;
+            background-color:#8cff009d ;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            /* width: 60px; */
+        }
+        #Section button:hover
+        {
+            cursor: pointer;
+            border: 1px solid white;
+            transition: 0.9s;
+            box-shadow: 3px 2px 8px red;
+        }
+        #Section h2
+        {
+            text-align: center;
+            margin-top: 3%;
+            padding-top: 5%;
+            font-size: 35px;
+            color: white;
+        }
+        #Section p
+        {   color: white;
+            text-align: center;
+            width: 75%;
+            margin-left: 15%;
+        }
+        #Section #main_bar_one
+        {
+            width: 30%;
+            margin-left: 2%;
+            margin-top: 2%;
+            height: 450px;
+            /* background-color: blue; */
+           /* border: 3px solid red; */
+           border-radius: 12px;
+           float: left;     
+        }
+    
+        #main_bar_one .one 
+        {
+            width: 100%;
+            height: 350px;
+            /* background-color: yellow; */
+            
+        }
+        #main_bar_one .one img
+        {
+            width: 100%;
+            height: 350px;
+            border-radius: 4px;
+           
+        }
+        #main_bar_one .two
+        {
+            width: 100%;
+            height: 93px;
+            background-color: white;
+            border-radius: 3px;
+            float: left;
+        
+        }
+        #main_bar_one .two h3
+        {
+            font-size: 25px;
+            padding-left: 26%;
+            padding-top: 4%;
+        }
+
+        #main_bar_two
+        {
+            width: 30%;
+            margin-left: 2%;
+            height: 450px;
+            background-color: white;
+            /* background-color: blue; */
+           /* border: 3px solid red; */
+           border-radius: 12px;
+           float: left;
+           margin-top: 2%;
+           
+        }
+        #main_bar_two .two
+        {
+            width: 100%;
+            height: 350px;
+            background-color: wheat;
+        }
+        #main_bar_two .two img
+        {
+            width: 100%;
+            height: 350px;
+            border-radius: 4px;
+        }
+        #main_bar_two .two h3
+        {
+            font-size: 25px;
+            padding-left: 26%;
+            padding-top: 4%;
+        }
+
+
+        #main_bar_three
+        {
+            width: 30%;
+            margin-left: 2%;
+            height: 450px;
+            background-color: white;
+            /* background-color: blue; */
+           /* border: 3px solid red; */
+           border-radius: 15px;
+           margin-top: 2%;
+           float: left;
+           
+        }
+        #main_bar_three .three
+        {
+            width: 100%;
+            height: 350px;
+            /* background-color: wheat; */
+        }
+        #main_bar_three .three img
+        {
+            width: 100%;
+            height: 350px;
+            border-radius: 6px;
+        }
+        #main_bar_three .three h3
+        {
+            font-size: 25px;
+            padding-left: 26%;
+            padding-top: 4%;
+        }
+
+        #Details
+        {
+            width: 100%;
+            height: 450px;
+         
+            margin-top: 2%;
+            display: flex;
+        }
+        #Details #form
+        {
+            width: 45%;
+            height: 450px;
+
+        }
+        #Details #form h3
+        {
+            width: 80%;
+            height: 50px;
+            margin-left: 4%;
+            line-height: 50px;
+           
+            font-size: 30px;
+        }
+        .Name
+        {
+            width: 240px;
+            height: 40px;
+            margin-left: 20px;
+            background-color:#eeeeee;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+        .number
+        {
+            width: 260px;
+            height: 40px;
+            background-color:#eeeeee;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+        .email
+        {
+            width: 90%;
+            height: 40px;
+            background-color:#eeeeee;
+            margin-left: 20px;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+        .message
+        {
+            width: 90%;
+            height: 140px;
+            background-color:#eeeeee;
+            margin-left: 20px;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            padding-top: 50px;
+        }
+        .send
+        {
+            width: 90%;
+            height: 40px;
+            background-color:#178066;
+            margin-left: 20px;
+            border-radius: 10px;
+            font-size: 20px;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        } 
+        .send:hover
+        {
+            cursor: pointer;
+            background-color: white;
+            border: 2px solid green;
+        }
+     
+        input:focus
+        {
+            outline: none;
+        }
+      ::placeholder
+      {
+        padding-left: 6%;
+        color: black;
+        font-size: 20px;
+
+      }
+     #map
+     {
+        width: 55%;
+        height:450px;
+        
+      
+     }
+     iframe
+     {
+        margin-top: 65px;
+        margin-left: 30px;
+     }
+     #testimonial
+     {
+        width: 100%;
+        height: 90px;
+   
+        text-align: center;
+        font-size: 40px;
+        line-height: 90px;
+     }
+     #Test_Details
+     {
+        width: 100%;
+        height: 440px;
+ 
+        justify-items: center;
+        justify-content: center;
+        display: flex;
+     }
+     .image
+     {  margin-top: 40px;
+        position: absolute;
+        border-radius: 50%;
+        
+     }
+     .image span
+     {
+        color:#62d2a2;
+        font-size: 25px;
+     }
+
+     .image img
+     {
+        border-radius: 50%;
+        height: 150px;
+     }
+    .content
+    {
+        width: 50%;
+        height: 100px;
+      
+        margin-top: 20%;
+        font-size: 20px;
+        text-align: justify;
+        
+    }
+    .icons
+    {
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        border-right: none; 
+        margin-top: 35px;
+      margin-left: 5px;
+
+    }
+    .icon
+    {
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        border-right: none; 
+        margin-top: 35px;
+        margin-left: 260px;
+
+    }
+    .fa-arrow-left
+    {
+        width: 55px;
+        height: 40px;
+        font-size: 20px;
+        padding-top: 8px;
+        background-color: #62d2a2;
+        color: white;
+        border-radius: 5px;
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+    }
+    .fa-arrow-left:hover
+    {
+        background-color: #178066;
+        cursor: pointer;
+    }
+    .fa-arrow-right
+    {
+        width: 55px;
+        height: 40px;
+        font-size: 20px;
+        padding-top: 8px;
+        background-color: #62d2a2;
+        color: white;
+        border-radius: 5px;
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+    }
+    .fa-arrow-right:hover
+    {
+        background-color: #178066;
+        cursor: pointer;
+    }
+    /* footer */
+    #footer
+    {
+        width: 100%;
+        height: 450px;
+        background-color: #178066;
+        display: flex;
+        margin-top: 5%;
+    }
+    .footer_one
+    {
+        width: 24%;
+        height: 430px;
+    
+        margin-top: 1%;
+    }
+    .footer_one span
+    {
+        font-size: 35px;
+        position: relative;
+        top: 53px;
+        left: 40px;
+        color: white;
+    }
+    .fa-location-dot
+    {
+        font-size: 20px;
+        position: relative;
+        top: 75px;
+        left: 40px;
+        color: white;
+    }
+    .footer_one b
+    {
+        font-size: 18px;
+        top: 73px;
+        color: #eeeeee;
+        left: 50px;
+        position: relative;
+    }
+    .footer_one b:hover
+    {
+        cursor: pointer;
+        color:#62d2a2;
+    }
+    .footer_one b:nth-last-of-type(1)
+    {
+        color: white;
+        position:relative;
+        top: 120px;
+
+    }
+    .footer_one b:nth-last-of-type(1):hover
+    {
+        color:#62d2a2;
+    }
+    .fa-phone
+    {
+        font-size: 20px;
+        position: relative;
+        top: 101px;
+        color: #eeeeee;
+        left: 40px;
+    }
+    .fa-envelope
+    {
+        font-size: 20px;
+        position: relative;
+        top: 122px;
+        left: 40px;
+        color: #eeeeee;
+    }
+    .footer_one b:nth-last-of-type(2)
+    {
+        color: white;
+        top: 100px;
+    }
+    .footer_one b:nth-last-of-type(2):hover
+    {
+        cursor: pointer;
+        color:#62d2a2;
+    }
+    .ico
+    {
+        width: 70%;
+        font-size: 25px;
+        position: relative;
+        left: 40px;
+        top: 150px;
+        color: #eeeeee;
+        height: 30px;
+       
+    }
+    .fa-facebook-f:hover
+    {
+        color:#62d2a2;
+        cursor: pointer;
+        text-shadow: 2px 1px 3px red;
+    }
+    .fa-twitter:hover
+    {
+        color:#62d2a2;
+        cursor: pointer;
+        text-shadow: 2px 1px 3px red;
+    }
+    .fa-linkedin-in:hover
+    {
+        color:#62d2a2;
+        cursor: pointer;
+        text-shadow: 2px 1px 3px red;
+    }
+    .fa-instagram:hover
+    {
+        color:#62d2a2;
+        cursor: pointer; 
+        text-shadow: 2px 1px 3px red;
+    }
+
+ /* ===============================================================    */
+
+    .footer_two
+    {   width: 24%;
+        height: 430px;
+
+        margin-left: 1%;
+        margin-top: 1%;
+
+    }
+
+    .footer_two span
+    {
+        font-size: 35px;
+        position: relative;
+        top: 53px;
+        left: 40px;
+        color: white;
+    }
+    .footer_two p
+    {
+        position: relative;
+        width: 80%;
+        text-align: justify;
+        top: 70px;
+        font-size: 20px;
+        left: 38px;
+        color: white;
+    }
+
+
+/* ===================================================================== */
+
+
+
+    .footer_three
+    {   width: 24%;
+        height: 430px;
+      
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .footer_three span
+    {
+        font-size: 35px;
+        position: relative;
+        top: 53px;
+        left: 40px;
+        color: white;
+    }
+    ol
+    {
+        list-style: none;
+    }
+    ol li
+    {
+        text-decoration: none;
+    }
+    ol li a
+    {
+        text-decoration: none;
+        position: relative;
+        font-size: 22px;
+        top: 70px;
+        left: 45px;
+        color: white;
+    }
+    ol li a:hover
+    {
+        color:#62d2a2;;
+    }
+
+
+/* ===================================================== */
+
+
+    
+    .footer_four
+    {
+        width: 24%;
+        height: 430px;
+
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .footer_four span
+    {
+        font-size: 35px;
+        position: relative;
+        top: 53px;
+        left: 20px;
+        color: white;
+    }
+    .footer_four input
+    {
+        border: none;
+        width: 250px;
+        height: 45px;
+        border-radius: 10px;
+        position: relative;
+        top: 75px;
+        left: 23px;
+    }
+    .Subscri
+    {
+        border: none;
+        width: 250px;
+        height: 45px;
+        border-radius: 10px;
+        position: relative;
+        top: 75px;
+        left: 23px;
+        background-color: #62d2a2;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .Subscri:hover
+    {
+        transition: 0.9s;
+        border: 1px solid #178066;
+        background-color: #178066;
+        box-shadow: -4px 1px 3px red;
+    }
+    
+
+       
+       
+
+    </style>
+</head>
+<body>
+    
+            <!--Banner  -->
+    <section id="Banner">
+        <img src="images/hero-bg.png" alt="">
+    </section>
+
+    <!-- header -->
+    <header id="head"> 
+       <header id="logo">
+        ORTHOC
+       </header>
+       <header id="nav">
+        <ul>
+            <a href="#main"><li>HOME</li></a>
+            <a href="#About_us"><li>ABOUT</li></a>
+            <a href="#Our_Department"><li>DEPATMENT</li></a>
+            <a href="#Section"><li>DOCTORS</li></a>
+            <a href="#Details"><li>CONTACT US</li></a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </ul>
+       </header>
+    </header>
+
+
+    <section id="main">
+        <h1>WE PROVIDE BEST<br>HEALTHCARE</h1><br>
+        <p>Explicabo esse amet tempora quibusdam laudantium,laborum eaque fuugiat hic?dicta aliquid error repudiandea earum venila,vel delectus repellat sequi.</p><br>
+        <button>Read More</button>
+    
+    </section>
+
+    <!--Our_department  -->
+
+    <section id="Our_Department">
+        <span>OUR DEPARTMENTS</span> <br><br>
+        <p>Asperiores sunt consector imedit nulla molestia deletus repe at laborum dolors accusantium</p>
+    </section>
+  
+    <section id="Main_Contener">
+
+        <section id="one">
+            <i class="fa-solid fa-heart-pulse"></i><br><br>
+            <span>CARDIOLOGY</span><br><br>
+            <p>fact that a reader will be distracted by the readable page when looking at its layout</p>
+
+        </section>
+        <section id="two">
+            <i class="fa-solid fa-heart-pulse"></i><br><br>
+            <span>CARDIOLOGY</span><br><br>
+            <p>fact that a reader will be distracted by the readable page when looking at its layout</p>
+        </section>
+        <section id="three">
+            <i class="fa-solid fa-heart-pulse"></i><br><br>
+            <span>CARDIOLOGY</span><br><br>
+            <p>fact that a reader will be distracted by the readable page when looking at its layout</p>
+        </section>
+        <section id="four">
+            <i class="fa-solid fa-heart-pulse"></i><br><br>
+            <span>CARDIOLOGY</span><br><br>
+            <p>fact that a reader will be distracted by the readable page when looking at its layout</p>
+        </section>
+    </section>
+
+    <!-- About Us -->
+
+    <section id="About_us">
+        <section id="imag">
+            <img src="images/about-img.jpg" alt="">
+        </section>
+
+        <section id="Right_about">
+            <h2>ABOUT US</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p><br>
+            <button>Read More</button>
+        </section>
+    </section>
+
+    <!-- Our Doctor -->
+    <section id="Section">
+        <h2>OUR DOCTORS</h2><br>
+        <p>Incilint sapiente illo quo praesentium officiis laudantium nostrum, ad adipisci cupiditate sit, quisquam aliquid. Officiis laudantium fuga ad voluptas aspernatur error fugiat quos facilis saepe quas fugit, beatae id quisquam.</p><br>
+
+        <section id="main_bar_one">
+            <section class="one">
+                <img src="images/d1.jpg" alt="">
+            </section>
+            <section class="two">
+                <h3>Elina Josh<br>
+                    Doctor</h3> 
+            </section>
+        </section>
+
+        <section id="main_bar_two">
+            <section class="two">
+                <img src="images/d2.jpg" alt="">
+                <h3>Adam View
+                    <br>
+                    Doctor</h3> 
+
+            </section>
+        </section>
+
+        <section id="main_bar_three">
+            <section class="three">
+                <img src="images/d3.jpg" alt="">
+                <h3>Mia Mike
+                    <br>
+                    Doctor</h3> 
+            </section>
+        </section>
+
+         <button>View All</button>
+    </section>
+
+    <!-- Form & Map -->
+    <section id="Details">
+        <section id="form">
+            <h3>GET IN TOUCH</h3><br>
+            <form>
+               <input type="text" placeholder="Your Name" class="Name">&nbsp;&nbsp;
+               <input type="Phone" placeholder="Phone Number" class="number"><br><br>
+               <input type="email" placeholder="Email" class="email"><br><br>
+               <textarea placeholder="Message" class="message"></textarea><br><br>
+               <button class="send">Send</button>
+            </form>
+        </section>
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29389.51240685475!2d72.5640749482378!3d22.961676135453192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8f7765819437%3A0xf77269b8a4cacc2!2sNarolgam%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1680890074347!5m2!1sen!2sin" width="580" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+
+    <section id="testimonial">
+        <span>TESTIMONIAL</span>
+    </section>
+
+    <section id="Test_Details">
+        <div class="image">
+            <img src="images/client.jpg" alt=""><br><br><span>Alan Emerson</span>
+        </div>
+        <div class="content">
+            <p>Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia. Magnam, aspernatur nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni corporis earum inventore totam consectetur corrupti! Corrupti, nihil sunt? Natus.</p>
+            <button class="icon"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="icons"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </section>
+
+
+    <section id="footer">
+        <div class="footer_one">
+            <span>Reach at..</span><br>
+            <i class="fa-solid fa-location-dot"></i><b>&nbsp; Location</b><br>
+            <i class="fa-solid fa-phone"></i><b>Call +011234567890</b><br>
+            <i class="fa-solid fa-envelope"></i><b>demo@gmail.com</b><br>
+           <div class="ico">
+            <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-linkedin-in"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram"></i>
+        </div> 
+        </div>
+
+
+        <div class="footer_two">
+            <span>About</span>
+            <p>Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.</p>
+        </div>
+
+        <div class="footer_three">
+            <span>Links</span>
+            <ol>
+                <li><a href="#head">Home</a></li><br>
+                <li><a href="#About_us">About</a></li><br>
+                <li><a href="#Our_Department">Departments</a></li><br>
+                <li><a href="#Section">Doctors</a></li><br>
+                <li><a href="#Details">Contact Us</a></li>
+
+            </ol>
+
+        </div>
+
+        <div class="footer_four">
+            <span>Newsletter</span><br>
+            <form action="">
+                <input type="email" placeholder="Enter email">
+            </form><br>
+            <button class="Subscri">Subscribe</button>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
